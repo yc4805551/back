@@ -1,0 +1,48 @@
+手动向量化数据库
+streamlit run sminfy.py
+
+
+## 完整工作流程
+1. 设置环境变量 ：在 .env 中配置 KNOWLEDGE_BASE_DIR
+2. 创建目录 ：在指定路径下创建 kb_nomic 文件夹
+3. 初始化数据 ：运行 flask ingest 创建知识库
+4. 启动监控 ：运行 flask watch-nomic 开始监控
+5. 添加文件 ：将 .txt 和 .md 文件放入 kb_nomic 目录
+
+
+第一个知识库（原有）：
+
+- 路径： D:/参考资料备份/TXT参考文件/kb_qwen_0_6b/
+- 监控命令： flask watch
+第二个知识库（新增）：
+
+- 路径： D:\WPS文档\304469991\WPS云盘\YCWPS\文件阶段终版\kb_nomic\
+- 监控命令： flask watch-nomic
+
+
+启动自动监控文件夹备份功能
+
+C:\Users\GLY-PC\Documents\CODE\project\INFV3\backend>flask watch
+
+
+cd C:\Users\GLY-PC\Documents\CODE\project\INFV3\backend
+
+flask watch
+flask watch-nomic
+
+启动一次性全面备份(不推荐使用),不如使用 streamlit run sminfy.py
+flask  ingest
+
+
+
+还有一个是使用 
+cd C:\Users\GLY-PC\Documents\CODE\project\SmartINF>
+
+streamlit run sminf.py
+
+streamlit run  sminf.py
+
+
+tessOCR 可以处理OCR
+
+

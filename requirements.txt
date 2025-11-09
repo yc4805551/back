@@ -1,0 +1,9 @@
+Flask
+flask_cors
+pymilvus
+python-dotenv
+requests
+watchdog
+gunicorn
+click
+# (以及您已有的其他任何库)
