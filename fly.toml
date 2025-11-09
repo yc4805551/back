@@ -9,8 +9,8 @@ primary_region = "sjc"
 [build]
   # 关键修复1：告诉 mise "从源码编译" Python
   pre-build-command = "mise settings set python_compile 1"
-  # 关键修复2：告诉 Fly.io 这是一个 Python 应用
-  builder = "flyio/python"
+  # --- ‼️ 关键修复2：使用正确的 buildpacks 名称 ‼️ ---
+  builder = "flyio/buildpacks"
 
 [http_service]
   internal_port = 8080
