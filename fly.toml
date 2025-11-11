@@ -4,7 +4,7 @@
 app = "back-c1jqzq"
 
 # 您可以选择一个离您或您的用户更近的区域, 例如 "hkg" (香港) 或 "nrt" (东京)
-primary_region = "sjc" 
+primary_region = "hkg" 
 
 [build]
   # 关键修复1：告诉 mise "从源码编译" Python
